@@ -58,12 +58,31 @@ object frmContact: TfrmContact
     BevelOuter = bvLowered
     TabOrder = 4
     object Button1: TButton
-      Left = 15
+      Left = 13
       Top = 10
       Width = 75
       Height = 25
       Caption = 'Display'
       TabOrder = 0
+    end
+    object BitBtn1: TBitBtn
+      Left = 13
+      Top = 40
+      Width = 75
+      Height = 25
+      Caption = '&Reset'
+      Kind = bkRetry
+      NumGlyphs = 2
+      TabOrder = 1
+    end
+    object BitBtn2: TBitBtn
+      Left = 13
+      Top = 410
+      Width = 75
+      Height = 25
+      Kind = bkClose
+      NumGlyphs = 2
+      TabOrder = 2
     end
   end
 end
