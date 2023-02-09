@@ -4,7 +4,8 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls, Vcl.Buttons;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls, Vcl.Buttons,
+  Vcl.Samples.Spin;
 
 type
   TfrmContact = class(TForm)
@@ -34,6 +35,8 @@ type
     Edit6: TEdit;
     Edit7: TEdit;
     Edit8: TEdit;
+    ComboBox1: TComboBox;
+    SpinEdit1: TSpinEdit;
   private
     { Private declarations }
   public

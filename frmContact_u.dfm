@@ -52,11 +52,11 @@ object frmContact: TfrmContact
       Caption = 'Last Name'
     end
     object Label3: TLabel
-      Left = 40
+      Left = 29
       Top = 81
-      Width = 35
+      Width = 45
       Height = 13
-      Caption = 'Gender'
+      Caption = 'Pronouns'
     end
     object Label4: TLabel
       Left = 55
@@ -67,17 +67,40 @@ object frmContact: TfrmContact
     end
     object Edit1: TEdit
       Left = 90
-      Top = 11
+      Top = 12
       Width = 121
       Height = 21
       TabOrder = 0
     end
     object Edit2: TEdit
       Left = 90
-      Top = 42
+      Top = 43
       Width = 121
       Height = 21
       TabOrder = 1
+    end
+    object ComboBox1: TComboBox
+      Left = 90
+      Top = 78
+      Width = 121
+      Height = 21
+      TabOrder = 2
+      Text = 'Select'
+      Items.Strings = (
+        'He/Him'
+        'She/Her'
+        'They/Them'
+        'Other')
+    end
+    object SpinEdit1: TSpinEdit
+      Left = 90
+      Top = 110
+      Width = 42
+      Height = 22
+      MaxValue = 100
+      MinValue = 15
+      TabOrder = 3
+      Value = 20
     end
   end
   object Panel3: TPanel
@@ -116,28 +139,28 @@ object frmContact: TfrmContact
     end
     object Edit3: TEdit
       Left = 90
-      Top = 8
+      Top = 9
       Width = 121
       Height = 21
       TabOrder = 0
     end
     object Edit4: TEdit
       Left = 90
-      Top = 38
+      Top = 39
       Width = 121
       Height = 21
       TabOrder = 1
     end
     object Edit5: TEdit
       Left = 90
-      Top = 68
+      Top = 69
       Width = 121
       Height = 21
       TabOrder = 2
     end
     object Edit6: TEdit
       Left = 90
-      Top = 98
+      Top = 99
       Width = 121
       Height = 21
       TabOrder = 3
@@ -165,14 +188,14 @@ object frmContact: TfrmContact
     end
     object Edit7: TEdit
       Left = 88
-      Top = 16
+      Top = 17
       Width = 121
       Height = 21
       TabOrder = 0
     end
     object Edit8: TEdit
       Left = 88
-      Top = 56
+      Top = 57
       Width = 121
       Height = 21
       TabOrder = 1
