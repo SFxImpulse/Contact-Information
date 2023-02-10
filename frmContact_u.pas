@@ -38,6 +38,7 @@ type
     ComboBox1: TComboBox;
     SpinEdit1: TSpinEdit;
     Image1: TImage;
+    CheckBox1: TCheckBox;
   private
     { Private declarations }
   public
